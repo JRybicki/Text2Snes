@@ -338,3 +338,8 @@ ASALocalRun/
 
 # BeatPulse healthcheck temp database
 healthchecksdb
+/ROM/input.exe
+/ROM/strings.exe
+/ROM/input.ahk
+/ROM/fullsnes.htm
+/ROM/strings.ahk

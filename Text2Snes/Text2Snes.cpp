@@ -1,10 +1,33 @@
 #include <iostream>
 #include <vector>
 
+/**
+Register    Serial     Default
+Bit         Transfer   Purpose
+Number______Order______(Joypads)_____
+15          1st        B Button         (1=Low=Pressed)
+14          2nd        Y Button
+13          3rd        Select Button
+12          4th        Start Button
+11          5th        Up
+10          6th        Down
+9           7th        Left
+8           8th        Right
+7           9th        A Button
+6           10th       X Button
+5           11th       L Button
+4           12th       R Button
+3           13th       0 (High)
+2           14th       0 (High)
+1           15th       0 (High)
+0           16th       0 (High)
+
+**/
+
 static const int maxAsciiBits = 7;
 static const int maxLineSize = 20;
-char inputsL[] = { '1', '2', 'e', 'q', 'd', 'a', 's' };
-char inputsR[] = { 's', 'a', 'd', 'q', 'e', '2', '1' };
+char inputsL[] = { '1', '2', '3', '4', '5', '6', '7' }; //w, enter, tab
+char inputsR[] = { '7', '6', '5', '4', '3', '2', '1' };
 
 static const char keySet    = '1';
 static const char spaceChar = ' ';
@@ -57,6 +80,7 @@ int main()
 
         std::system(buffer);
     }
+
 
 }
 
