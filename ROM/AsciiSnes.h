@@ -1,9 +1,8 @@
 /*---------------------------------------------------------------------------------
 
 
-	Simple console 'hello world' demo
-	-- alekmaul
-
+	Simple console based on the 'hello world' demo from alekmaul
+	--Jeremy
 
 ---------------------------------------------------------------------------------*/
 #include <snes.h>
